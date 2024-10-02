@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp"
+          xmlns:adlcp="http://www.imsglobal.org/xsd/adlcp"
+          identifier="com.jmdigital.webdev.javascript"
+          version="1.3">
+
+    <metadata>
+        <schema>IMS Content</schema>
+        <schemaversion>1.3.3</schemaversion>
+        <adlcp:location>index.html</adlcp:location>
+    </metadata>
+
+    <organizations default="TOC">
+        <organization identifier="TOC">
+            <title>JM Digital Web Developer JavaScript Course</title>
+            <item identifier="lesson1" identifierref="lesson1">
+                <title>Lesson 1: Introduction to JavaScript</title>
+            </item>
+            <item identifier="lesson2" identifierref="lesson2">
+                <title>Lesson 2: Variables and Data Types</title>
+            </item>
+            <item identifier="lesson3" identifierref="lesson3">
+                <title>Lesson 3: Functions</title>
+            </item>
+            <item identifier="lesson4" identifierref="lesson4">
+                <title>Lesson 4: Objects</title>
+            </item>
+            <item identifier="lesson5" identifierref="lesson5">
+                <title>Lesson 5: DOM Manipulation</title>
+            </item>
+        </organization>
+    </organizations>
+
+    <resources>
+        <resource identifier="lesson1" type="webcontent" adlcp:scormtype="sco" href="lesson1.html">
+            <file href="lesson1.html"/>
+            <file href="scormdriver.js"/>
+        </resource>
+        <resource identifier="lesson2" type="webcontent" adlcp:scormtype="sco" href="lesson2.html">
+            <file href="lesson2.html"/>
+            <file href="scormdriver.js"/>
+        </resource>
+        <resource identifier="lesson3" type="webcontent" adlcp:scormtype="sco" href="lesson3.html">
+            <file href="lesson3.html"/>
+            <file href="scormdriver.js"/>
+        </resource>
+        <resource identifier="lesson4" type="webcontent" adlcp:scormtype="sco" href="lesson4.html">
+            <file href="lesson4.html"/>
+            <file href="scormdriver.js"/>
+        </resource>
+        <resource identifier="lesson5" type="webcontent" adlcp:scormtype="sco" href="lesson5.html">
+            <file href="lesson5.html"/>
+            <file href="scormdriver.js"/>
+        </resource>
+    </resources>
+</manifest>
